@@ -12,8 +12,8 @@ var app = express();
 var emptySchema = new mongoose.Schema({}, { strict: false });
 var Entry = mongoose.model('Entry', emptySchema);
 
-mongoose.connect('mongodb://localhost/jspsych');
-var db = mongoose.connect(process.env.CONNECTION); 
+mongoose.connect(process.env.CONNECTION); 
+var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function callback() {
     console.log('database opened');

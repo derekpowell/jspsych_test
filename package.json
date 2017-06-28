@@ -1,0 +1,25 @@
+{
+  "name": "jspsychtutorial",
+  "version": "1.0.0",
+  "description": "https://github.com/Tuuleh/jsPsychBackendStart",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuuleh/jsPsychBackendStart.git"
+  },
+  "author": "dmp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuuleh/jsPsychBackendStart/issues"
+  },
+  "homepage": "https://github.com/Tuuleh/jsPsychBackendStart#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
